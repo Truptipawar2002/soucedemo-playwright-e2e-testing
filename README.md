@@ -1,4 +1,4 @@
-# Playwright E2E Framework (TypeScript)
+# SouceDemo Playwright E2E Testing (TypeScript)
 
 This repository contains a complete **E2E automation framework** built with **Playwright + TypeScript**, demonstrating a real-world project structure based on Page Object Model (POM), fixtures, reusable test data, and suite tagging (smoke / regression).
 
@@ -20,7 +20,7 @@ The framework uses the **SauceDemo** application as the target system under test
 
 ## 📁 Project Structure
 ```md
-playwright-e2e-framework-ts/
+soucedemo-playwright-e2e-testing/
 │
 ├── pages/
 │ ├── LoginPage.ts
