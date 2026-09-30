@@ -10,7 +10,7 @@ test("should logout user from burger menu @regression", async ({ page }) => {
     await productsPage.assertIsVisible();
 
     await productsPage.burgerMenu.click();
-    await page.getByRole("link", { name: "Logout" }).click();
+    await page.getByRole("button", { name: "Logout" }).click();
 
     // FIX matcher URL
     await expect(page).toHaveURL(/saucedemo\.com/);
